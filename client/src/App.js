@@ -1,6 +1,6 @@
 import React from 'react';
-import {MessageList} from './componenta/MessageList';
-import {SendMessageForm} from './componenta/SendMessageForm';
+import {MessageList} from './components/MessageList';
+import {SendMessageForm} from './components/SendMessageForm';
 
 export function App() {
     return (

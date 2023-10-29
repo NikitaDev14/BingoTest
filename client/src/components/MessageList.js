@@ -8,7 +8,7 @@ export function MessageList() {
 
     useEffect(() => {
         messageList.current.scrollTop = messageList.current.scrollHeight;
-    });
+    }, [messages]);
 
     return (
         <div ref={messageList} className={styles.messages}>
